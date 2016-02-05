@@ -1,0 +1,1 @@
+include figlet_motd

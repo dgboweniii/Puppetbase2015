@@ -1,0 +1,24 @@
+2014-04-08 Release 1.0.0
+- Log to syslog instead of STDOUT/STDERR to `/var/log/upstart/openconnect`.
+- Disable `hasrestart` so that argument changes get picked up.
+- Removed some empty directories from the repo (shouldn't affect anyone).
+
+2014-03-10 Release 0.0.6
+- Added servercert param for SHA1 fingerprint of trusted server's SSL cert. Thanks to @AbleCoder
+- Fix a deprecation warning from rspec-puppet.
+
+2013-07-03 Release 0.0.5
+- Attempt to remove dep warnings from Modulefile.
+
+2013-07-03 Release 0.0.4
+- Fix typo in Modulefile dependency list.
+
+2013-07-03 Release 0.0.3
+- Relax stdlib dependency to 3.x
+
+2013-07-03 Release 0.0.2
+- Change logic and default for dnsupdate.
+
+2013-07-03 Release 0.0.1
+- Intial release.
+- Extracted from GOV.UK codebase @ f93b1f7.

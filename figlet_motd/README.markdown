@@ -1,0 +1,3 @@
+# figlet_motd #
+
+This is the figlet_motd module. It provides...
